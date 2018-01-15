@@ -1,3 +1,5 @@
+# This is the lesson 3 mini project
+
 import turtle
 import math
 
