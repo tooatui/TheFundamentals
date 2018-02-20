@@ -8,7 +8,7 @@ https://www.hackerrank.com/challenges/python-print
 
 ## Things that are different in other languages
 ### logical operators
-keywords are more of natural languages: e.g. and, or, not, rather than &&, ||, !
+keywords are more of natural languages: e.g. ```and, or, not,``` rather than ```&&, ||, !```
 ``` 
 a = False
 b = True
