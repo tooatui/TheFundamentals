@@ -7,6 +7,22 @@ https://www.hackerrank.com/challenges/python-print
 - [Predefined Class Attributes](http://www2.lib.uchicago.edu/keith/courses/python/class/5/), e.g. ``ClassName.__doc__``
 
 ## Things that are different in other languages
+### logical operators
+keywords are more of natural languages: e.g. and, or, not, rather than &&, ||, !
+``` 
+a = False
+b = True
+
+if a and b:
+    print("a and b is true")
+
+if a or b:
+    print("a or b is true")
+
+if not a
+    print("a is not true")
+```
+
 ### Ternary if statements 
 ```
 # Ternary if statements 
