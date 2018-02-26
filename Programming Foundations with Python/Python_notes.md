@@ -34,3 +34,10 @@ b = 6
 
 print("bigger" if a > b else "smaller")
 ```
+
+### lambda functions
+lambda
+```
+doubla = lambda x: x * 2
+print(doubla(21))
+```
