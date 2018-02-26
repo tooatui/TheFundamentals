@@ -7,6 +7,7 @@ https://www.hackerrank.com/challenges/python-print
 - [Predefined Class Attributes](http://www2.lib.uchicago.edu/keith/courses/python/class/5/), e.g. ``ClassName.__doc__``
 - tuple vs list (https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
     - Tuples are fixed size in nature whereas lists are dynamic. In other words, a tuple is immutable whereas a list is mutable. For example, tuple is used in function argument list `*args` 
+- yield (generator)
 
 ## Things that are different in other languages
 ### logical operators
