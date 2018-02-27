@@ -29,7 +29,6 @@ https://www.hackerrank.com/challenges/python-print
 	st = set([1, 2, 3])
 	for item in st:
 		print(item)
-
 	# the following statement will throw exception: "TypeError: 'set' object does not support indexing"
 	# print(st[1])
      ```
