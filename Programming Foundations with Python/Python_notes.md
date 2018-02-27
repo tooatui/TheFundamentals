@@ -76,3 +76,9 @@ for i in list:
 ```
 - string format
 `print("numner of files: {0}".format(len(files)))`
+
+
+# Resources that I used to learn Python
+- Udacity Python course
+- Pluralsignt Python course
+- Stackoverflow for all sorts of questions (refer my votes)
