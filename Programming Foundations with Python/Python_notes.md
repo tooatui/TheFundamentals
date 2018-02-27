@@ -51,5 +51,5 @@ list = [1, 2, 3]
 for i in list:
     print(i)
 ```
--- string format
+- string format
 `print("numner of files: {0}".format(len(files)))`
