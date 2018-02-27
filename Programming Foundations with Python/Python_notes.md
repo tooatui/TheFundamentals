@@ -82,3 +82,4 @@ for i in list:
 - Udacity Python course
 - Pluralsignt Python course
 - Stackoverflow for all sorts of questions (refer my votes)
+- My reMarkable python book? (the chapter 1 made me go for python 3.*)
