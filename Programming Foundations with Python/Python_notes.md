@@ -44,7 +44,7 @@ print(doubla(21))
 ```
 
 ## Things that are so cool!
-- so easy to setup and start, no more `public static void main(String[] args) throws Exception {}` !!!
+- so easy to set up and start, no more `public static void main(String[] args) throws Exception {}` !!!
 - for loop, loop a list has never been so easy!
 ```
 list = [1, 2, 3]
