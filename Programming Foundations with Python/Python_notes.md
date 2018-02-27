@@ -23,7 +23,6 @@ https://www.hackerrank.com/challenges/python-print
 
 	tpl = (1, 2, 3)
 	print(tpl[1])
-
 	# the following statement will throw exception because you cannot update element in tuple
 	# tpl[1] = 33
 
