@@ -9,6 +9,28 @@ https://www.hackerrank.com/challenges/python-print
     - Tuples are fixed size in nature whereas lists are dynamic. In other words, a tuple is immutable whereas a list is mutable. For example, tuple is used in function argument list `*args` 
 - yield (generator)
 - generator expressions https://medium.freecodecamp.org/python-list-comprehensions-vs-generator-expressions-cef70ccb49db
+- list vs set vs tuple
+ - A list is sequence of elements in a spedific order, like an array in JavaScript.
+ - A tuple is basically an immutable list, meaning that you cannot add, remove or update element. Good use for constants. 
+ - A set is a collection of unordered item within which all elements are unique. 
+ ```
+ lst = [1, 2, 3]
+print(lst[1])
+
+
+tpl = (1, 2, 3)
+print(tpl[1])
+
+# the following statement will throw exception because you cannot update element in tuple
+# tpl[1] = 33
+
+st = set([1, 2, 3])
+for item in st:
+	print(item)
+
+# the following statement will throw exception: "TypeError: 'set' object does not support indexing"
+# print(st[1])
+ ```
 
 ## Things that are different in other languages
 ### logical operators
