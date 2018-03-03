@@ -33,6 +33,15 @@ https://www.hackerrank.com/challenges/python-print
 	# print(st[1])
      ```
 
+### The usage of ()
+can be used for opertations across multiple lines
+refer sudoku puzzle page 1 (http://norvig.com/sudoku.html)
+where 
+unitlist = (cross() +
+ cross() +
+ cross()
+)
+https://stackoverflow.com/questions/30700603/different-meanings-of-brackets-in-python
 # Things that are different in other languages
 ### logical operators
 	keywords are more of natural languages: e.g. ```and, or, not,``` rather than ```&&, ||, !```
