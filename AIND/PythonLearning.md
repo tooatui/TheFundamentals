@@ -29,4 +29,5 @@ def grid_values(grid):
     assert len(grid) == 81, "Input grid must be a string of length 81 (9x9)"
     return dict(zip(boxes, grid))
 
+https://classroom.udacity.com/nanodegrees/nd889/parts/6be67fd1-9725-4d14-b36e-ae2b5b20804c/modules/237a9d0d-e2d0-45e4-a7fd-ff4bb88203c5/lessons/b1553784-de43-42c1-a7bf-c66a6e235c47/concepts/f2c9405a-76ae-4616-bf2b-8e60fc9f6ac4
 https://docs.python.org/3.3/library/functions.html#zip
