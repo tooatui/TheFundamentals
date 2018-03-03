@@ -41,6 +41,7 @@ unitlist = (cross() +
  cross() +
  cross()
 )
+https://stackoverflow.com/questions/4172448/is-it-possible-to-break-a-long-line-to-multiple-lines-in-python
 https://stackoverflow.com/questions/30700603/different-meanings-of-brackets-in-python
 # Things that are different in other languages
 ### logical operators
