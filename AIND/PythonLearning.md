@@ -31,3 +31,33 @@ def grid_values(grid):
 
 https://classroom.udacity.com/nanodegrees/nd889/parts/6be67fd1-9725-4d14-b36e-ae2b5b20804c/modules/237a9d0d-e2d0-45e4-a7fd-ff4bb88203c5/lessons/b1553784-de43-42c1-a7bf-c66a6e235c47/concepts/f2c9405a-76ae-4616-bf2b-8e60fc9f6ac4
 https://docs.python.org/3.3/library/functions.html#zip
+
+# set operations
+```
+# Program to perform different set operations
+# as we do in  mathematics
+ 
+# sets are define
+A = {0, 2, 4, 6, 8};
+B = {1, 2, 3, 4, 5};
+ 
+# union
+print("Union :", A | B)
+ 
+# intersection
+print("Intersection :", A & B)
+ 
+# difference
+print("Difference :", A - B)
+ 
+# symmetric difference
+print("Symmetric difference :", A ^ B)
+```
+
+Output:
+```
+('Union :', set([0, 1, 2, 3, 4, 5, 6, 8]))
+('Intersection :', set([2, 4]))
+('Difference :', set([8, 0, 6]))
+('Symmetric difference :', set([0, 1, 3, 5, 6, 8]))
+```
