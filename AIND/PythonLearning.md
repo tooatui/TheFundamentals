@@ -33,6 +33,10 @@ https://classroom.udacity.com/nanodegrees/nd889/parts/6be67fd1-9725-4d14-b36e-ae
 https://docs.python.org/3.3/library/functions.html#zip
 
 # set operations
+source: 
+```peers = dict((s, set(sum(units[s], [])) - set([s])) for s in squares)```
+
+
 ```
 # Program to perform different set operations
 # as we do in  mathematics
