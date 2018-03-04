@@ -32,6 +32,20 @@ def grid_values(grid):
 https://classroom.udacity.com/nanodegrees/nd889/parts/6be67fd1-9725-4d14-b36e-ae2b5b20804c/modules/237a9d0d-e2d0-45e4-a7fd-ff4bb88203c5/lessons/b1553784-de43-42c1-a7bf-c66a6e235c47/concepts/f2c9405a-76ae-4616-bf2b-8e60fc9f6ac4
 https://docs.python.org/3.3/library/functions.html#zip
 
+# sum
+https://docs.python.org/3/library/functions.html#sum
+source: 
+```peers = dict((s, set(sum(units[s], [])) - set([s])) for s in squares)```
+
+sum(units[s], []) here is to flat units[s] to a plain list because units[s] is a list of list, e.g [[], [], []]
+```
+print(units['A1'])
+# output: [['A1', 'B1', 'C1', 'D1', 'E1', 'F1', 'G1', 'H1', 'I1'], ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9'], ['A1', 'A2', 'A3', 'B1', 'B2', 'B3', 'C1', 'C2', 'C3']]
+
+print(sum(units['A1'], []))
+# output: ['A1', 'B1', 'C1', 'D1', 'E1', 'F1', 'G1', 'H1', 'I1', 'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A1', 'A2', 'A3', 'B1', 'B2', 'B3', 'C1', 'C2', 'C3']
+```
+
 # set operations
 source: 
 ```peers = dict((s, set(sum(units[s], [])) - set([s])) for s in squares)```
